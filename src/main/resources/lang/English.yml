@@ -1,0 +1,17 @@
+version: 1.0.0
+plugin:
+  prefix: '§7[§eRespawnAnchorPro§7]§r '
+  version_below_1_16: 'There is no respawnAnchor in servers below 1.16 so plugin will do nothing.'
+  wrong_file_version: 'File {file_name} is out of date，please update it.'
+player:
+  no_permission: "§4I'm Sorry, but you do not have permission to do that."
+
+command:
+  no_permission: "§4I'm Sorry, but you do not have permission to do that."
+  reload_config: '§aConfig reload complete.'
+
+world:
+  respawn_anchor_rule_changed: 'RespawnAnchor rule in {world} changed to: §b{tag}.'
+
+CommandTips:
+  - '§e/rap reload §a- reload the config'

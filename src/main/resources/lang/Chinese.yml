@@ -1,0 +1,17 @@
+version: 1.0.0
+plugin:
+  prefix: '§7[§eRespawnAnchorPro§7]§r '
+  version_below_1_16: '1.16以下版本无重生锚，插件将不会工作.'
+  wrong_file_version: '{file_name} 版本与插件不对应，请更新文件'
+player:
+  no_permission: "§4你没有使用该命令的权限"
+
+command:
+  no_permission: "§4你没有使用该命令的权限"
+  reload_config: '§a配置文件已重载'
+
+world:
+  respawn_anchor_rule_changed: '世界{world}中的重生锚规则已被设为: §b{tag}'
+
+CommandTips:
+  - '§e/rap reload §a- 重载配置文件'

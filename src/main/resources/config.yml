@@ -1,0 +1,15 @@
+# File version, do not edit
+version: 1.0.0
+
+# [English/Chinese]
+lang: English
+
+# In these worlds, respawn anchor works
+enable_world_list:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+
+# Players who have this permission can set spawn point using respawn anchor in enable_worlds.
+# If this option is empty, everyone can do that.
+permission: ''

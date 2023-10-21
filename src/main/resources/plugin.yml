@@ -1,0 +1,15 @@
+name: RespawnAnchorPro
+version: 1.0.0
+main: pers.xanadu.respawnanchorpro.RespawnAnchorPro
+api-version: 1.13
+author: Xanadu13
+commands:
+  respawnanchorpro:
+    description: 'RespawnAnchorPro Main Command'
+    aliases: [ rap ]
+    permission: ''
+    permission-message: "§4I'm Sorry,but you do not have permission to do that."
+permissions:
+  respawnanchorpro.admin:
+    description: 'Use all commands of RespawnAnchorPro'
+    default: op
